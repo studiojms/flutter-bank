@@ -64,8 +64,6 @@ class TransferenceFormState extends State<TransferenceForm> {
 
     if (accountNumber != null && transferenceValue != null) {
       transference = Transference(transferenceValue, accountNumber);
-
-      debugPrint("$transference");
     }
 
     return transference;
